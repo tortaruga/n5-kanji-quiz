@@ -121,7 +121,7 @@ function displayQuiz() {
 }
 
 function hideIntro() { 
-    hide(header);
+    hide(header); 
 }
 
 function displayKanji(arr, index) {
