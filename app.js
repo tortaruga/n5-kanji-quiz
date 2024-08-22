@@ -120,7 +120,7 @@ function displayQuiz() {
     show(quizContainer);
 }
 
-function hideIntro() {
+function hideIntro() { 
     hide(header);
 }
 
@@ -139,3 +139,4 @@ function createOptions(meaning, state) {
     // push the option in an array of options
     options.push(option);
 }
+

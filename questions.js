@@ -1,5 +1,5 @@
 export const kanji = [
-    {
+    {  
         kanji: '一',
         meaning: 'one, one radical'
     },
