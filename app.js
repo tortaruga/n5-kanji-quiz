@@ -86,7 +86,7 @@ function startQuiz(e) {
              const indexes = [];
              for (let i = 0; i < 2; i++) {
                 let randomIndex;
-            // make sure the two options are different
+            // make sure the two options are different 
                 do {
                     randomIndex = Math.floor(Math.random() * updatedArray.length);
                     createOptions(updatedArray[randomIndex].meaning, 'false');
