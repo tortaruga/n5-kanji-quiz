@@ -25,7 +25,7 @@ export const kanji = [
     },
     {
         kanji: '中',
-        meaning: 'in, inside, middle, mean, centerJ'
+        meaning: 'in, inside, middle, mean, center'
     },
     {
         kanji: '九',

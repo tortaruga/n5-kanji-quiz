@@ -5,13 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>N5 Kanji Quiz</title>
     <link rel="stylesheet" href="./styles.css">
+    <link rel="icon" href="./favicon.png" type="image/x-icon">
     <script defer type="module" src="./app.js"></script>
 </head>
-<body>
+<body> 
     <main>
         <header>
             <h1 class="main-heading">
-              N5 Kanji Quiz
+              N5 <span class="black">Kanji</span> Quiz
             </h1>
             <p class="introduction">
                 This quiz will test you on level N5 kanji and their meaning. You can choose whether you want to be tested on 10 random kanji or all of them (they are 103). Enjoy!
@@ -23,17 +24,26 @@
         </header>
         <section class="quiz-container hide">
             <div class="kanji-card">名</div>
-            <ul class="answer-container">
-              
-            </ul>
+            <div class="answer-container">
+              <!-- buttons -->
+            </div>
+        </section>
+        <section class="score-container hide"> 
+         <p>
+          you scored <span class="score"></span>
+         </p>
+         <button class="play-again">play again?</button>
         </section>
     </main>
     <footer>
         <p class="footer-credits">
             The list of kanji and relative meanings were taken from <a href="https://jlptstudy.net/N5/?kanji-list" target="_blank">jlptstudy</a>.
         </p>
+        <p>
+            webpage icon by <a target="_blank" href="https://www.freepik.com/icon/sakura_12257455#fromView=search&page=1&position=38&uuid=ddc52128-f9f7-465b-9bfb-bf5dfe432664">Iconfromus</a>
+        </p>
         <p class="footer-attribution">
-            coded by <a href="">tortaruga</a>
+            coded by <a href="https://github.com/tortaruga" target="_blank">tortaruga</a> 🌸 
         </p>
     </footer>
 </body>

@@ -1,3 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Kiwi+Maru&display=swap');
+
+:root {
+    --incorrect-answer: #e78e8e;
+    /* --correct-answer: #8cb9cd; */
+    /* --incorrect-answer: #e5ada8;  */
+    /* --bg: #d8d7b2;  */
+    --greyish: #e1e4ea;
+    /* --bg: #efe8d8; */
+    /* --correct-answer: #91b5a9; */
+    /* --bg: #b6cad7; */
+    /* --incorrect-answer: #d98481; */
+    /* --correct-answer: #b3cfc8; */
+    --black: #515f6d;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'kiwi maru', sans-serif;
+    font-size: 1rem;
+    background: var(--greyish); 
+    /* font-weight: bold; */
+    text-align: center;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content:space-between;
+    min-height: 100vh; 
+    gap: 5rem; 
+    color: var(--black); 
+}
+
+header {
+    display:flex;
+    flex-direction: column; 
+    justify-content:center;
+    align-items: center;
+    gap: 2rem; 
+    max-width: 500px; 
+}
+
+.main-heading {
+    font-family: 'kiwi maru', sans-serif;
+    color: var(--incorrect-answer);
+}
+
+.black {
+    color: var(--black);
+}
+
+button {
+    font-family: 'kiwi maru', sans-serif;
+    border-radius: .8rem; 
+    padding: .5rem .8rem;  
+    cursor: pointer; 
+    border: none;
+    font-size: 1.1rem; 
+    color: var(--black);
+    background: white;  
+}
+
+button:hover { 
+    background: #515f6d2a;
+}
+
+.start-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.quiz-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  justify-content:center;
+  gap: 2rem;  
+  padding: 1.5rem;
+  /* margin: auto;  */
+  /* width: clamp(18.75rem, 40%, 12.5rem);   */
+  max-width: 18.75rem;   
+  min-width: 12.5rem; 
+}
+
+.kanji-card {
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    font-size: 8rem; 
+    /* font-weight: bold; */
+    background: white; 
+    aspect-ratio: 1;
+    border-radius: 1rem;
+    width: max-content;
+}
+
+.answer-container {
+    display: flex; 
+    flex-direction: column;
+    gap: .5rem; 
+    align-items: stretch;
+    justify-content: center; 
+    width: 100%;
+}
+
+.option { 
+    width: 100%; 
+    min-width: 12.5rem; 
+}
+
+.score-container { 
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;  
+  font-size: 1.5rem;
+  border-radius: 1rem;
+  background: var(--incorrect-answer);  
+  color: white;
+  padding: 2rem;
+  margin-top: 4rem; 
+}
+
+footer {
+    font-size: .8rem; 
+    letter-spacing: .05rem; 
+}
+
+a {
+    text-decoration: none;         
+    color:var(--incorrect-answer);
+    font-weight: bold;                                                                                                                                                                                                                                                                                                           
+}
+
 .hide {
     display: none;
 }
